@@ -1,25 +1,60 @@
 <html>
   <head>
+    <link rel="stylesheet" media="all" href="css/application.css">
   </head>
   <body>
-    <h1>Famespace Calendar</h1>
-    <div>
-      <iframe 
-        src="https://www.google.com/calendar/embed?src=i90mjut7olbok9ll8suc7meh08%40group.calendar.google.com&ctz=Asia/Bangkok&hl=en&mode=WEEK" 
-        style="border: 0" 
-        width="800" 
-        height="600" 
-        frameborder="0" 
-        scrolling="no"></iframe>
-    </div>
-    <div>
-      <iframe 
-        src="https://www.google.com/calendar/embed?src=ol29f8tlpt0c1okudhuuneh88g%40group.calendar.google.com&ctz=Asia/Bangkok&hl=en&mode=WEEK" 
-        style="border: 0" 
-        width="800" 
-        height="600" 
-        frameborder="0" 
-        scrolling="no"></iframe>
+    <nav>
+      <span class="logo">Famespace Calendars</span>
+      <ul>
+        <li><a href="#R1">Room1</a></li>
+        <li><a href="#R2">Room2</a></li>
+        <li><a href="#AA">AfterHours</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <div>
+        <p>
+          Create a Google Calendar appointment and send
+          an invitation to:</p>
+        <ul>
+          <li>Conference Room 1: i90mjut7olbok9ll8suc7meh08@group.calendar.google.com</li>
+          <li>Conference Room 2: ol29f8tlpt0c1okudhuuneh88g@group.calendar.google.com</li>
+          <li>After Hours: 07i92vd8vkrf1vl24ega68gkk0@group.calendar.google.com</li>
+        </ul>
+      </div>
+      <hr />
+      <div>
+        <a class="anchor" id="R1"></a>
+        <iframe 
+          src="https://www.google.com/calendar/embed?src=i90mjut7olbok9ll8suc7meh08%40group.calendar.google.com&ctz=Asia/Bangkok&hl=en&mode=WEEK" 
+          style="border: 0" 
+          width="800" 
+          height="600" 
+          frameborder="0" 
+          scrolling="no"></iframe>
+      </div>
+      <hr />
+      <div>
+        <a class="anchor" id="R2"></a>
+        <iframe 
+          src="https://www.google.com/calendar/embed?src=ol29f8tlpt0c1okudhuuneh88g%40group.calendar.google.com&ctz=Asia/Bangkok&hl=en&mode=WEEK" 
+          style="border: 0" 
+          width="800" 
+          height="600" 
+          frameborder="0" 
+          scrolling="no"></iframe>
+      </div>
+      <hr />
+      <div class="last">
+        <a class="anchor" id="AA"></a>
+        <iframe 
+          src="https://www.google.com/calendar/embed?src=07i92vd8vkrf1vl24ega68gkk0%40group.calendar.google.com&ctz=Asia/Bangkok&hl=en&mode=WEEK" 
+          style="border: 0" 
+          width="800" 
+          height="600" 
+          frameborder="0" 
+          scrolling="no"></iframe>
+      </div>
     </div>
   </body>
 </html>

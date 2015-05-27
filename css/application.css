@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  margin-top: 30px;
+  font-family: verdana;
+  font-size: 10pt; }
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #030;
+  color: #fff;
+  padding: 5px; }
+  nav .logo {
+    color: #0c0;
+    margin-right: 10px; }
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    nav ul li {
+      display: inline;
+      margin-right: 10px; }
+      nav ul li a, nav ul li a:hover {
+        color: #fff;
+        text-decoration: none;
+        padding: 2px; }
+      nav ul li a:hover {
+        background-color: #0c0; }
+
+.content div.last {
+  min-height: 100vh; }
+.content .anchor {
+  height: 30px; }
+
+/*# sourceMappingURL=application.css.map */
